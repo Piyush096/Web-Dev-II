@@ -1,0 +1,79 @@
+<!-- Forms & Input Tags -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+<h2>this is the basic of form</h2>
+<form action="bakend.php">
+
+<!-- The action attribute defines the action to be performed when the form is submitted.
+Usually, the form data is sent to a file on the server when the user clicks on the submit button.
+In the example below, the form data is sent to a file called "bakend.php". This file contains
+a server-side script that handles the form data: -->
+<fieldset>
+    <!-- The <fieldset> tag is used to group related elements in a form. The <fieldset> tag draws a box around the related elements. -->
+
+    <legend>students detail * <style></style> </legend>
+
+    <!-- The legend tag is used to define the title for the child contents. The legend elements are the parent element. This tag is used to define the caption for the <fieldset> element. -->
+    <label for="name"> NAME:</label>
+    <div>
+    <input type="text" id="name">
+    </div><br>
+    <!-- we can also use br tag but it's not recommended,we can to these with the help of the css -->
+    <div>roll: <input type="text">
+    </div>
+    <br>
+    <div>
+        EMAIL:<input type="email" name="myemail" >
+    </div>
+    <br>
+    <div>
+        GENDER: male<input type="radio" name="mygender" >
+                female<input type="radio" name="mygender" >
+                other<input type="radio" name="mygender" >
+<!-- Radio buttons let a user select only one of a limited number of choices , as here we have to select between male and female .-->
+    </div>
+
+    <br>
+    <div>
+     <label for="nationallity">nationallity</label>
+     <select name="mycar" id="nationallity">
+        <option value="">select</option>
+         <option value="india">india</option>
+         <option value="nepal">nepal</option>
+         <option value="america">america</option>
+         <option value="russia">russia</option>
+     </select>
+    </div>
+
+    <br>
+    <div>
+        DATE: <input type="date" name="mydate">
+    </div>
+    <br>
+    <div>
+        werite about yourself: <br>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
+<!-- The <textarea> HTML element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form. -->
+    </div>
+    <br>
+    <div>
+        are you eligible? <input type="checkbox" name="mycheckbox" >
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="submit now">
+        <br>
+        <input type="reset" value="reset now">
+    </div>
+
+</fieldset>
+</form>
+</body>
+</html>
