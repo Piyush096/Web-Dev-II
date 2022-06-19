@@ -1,0 +1,32 @@
+#paragraph{
+    color: rebeccapurple;
+    border: 2px solid coral;
+}
+/* this is id selector.... in this if element have given any id so by that we can select that add some property to them */
+.dotoperator{
+    color: green
+    ;
+}
+
+/* if want add some property to only element to than at that time we use the id selector but
+   if we want to add same property to more than one element than at that time we use class selector */
+
+.background{
+    background-color: yellowgreen;
+}
+
+/* here in both the above cases i have selected the paragraph with the help of the class not by the id
+so we can acces by both way  */
+
+footer,h3{
+    background-color: orange;
+}
+
+/* this is group selectors by which we can take more element at a time ...this generally means if we want to
+add same property to more than one element than we use grouping css selector */
+
+h2 {
+    color: rgb(18, 5, 5);
+    text-align: center;
+    /* To just center the text inside an element, use text-align: center; This text is centered. */
+  }

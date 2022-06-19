@@ -2,3 +2,15 @@ p{
     color: blueviolet;
     background-color: hotpink;
 }
+/*css selectors are used to find the element whose property will be set so that by applying
+property to that selectors it looks more better*/
+
+/* selectors are used to target the html elements  */
+
+/* here in the above p is the selector */
+
+/* types of basic css selectors  */
+/* css element selector
+css id selectors
+css class selector
+the css grouping selector */
