@@ -1,0 +1,52 @@
+/* this is universl selector */
+*{
+    box-sizing: border-box;
+    width: 0;
+    padding:0;
+}
+/* by default we set it to zero */
+
+body{
+    background-color: rgb(213, 163, 101);
+}
+
+
+.container{
+    background-color: blanchedalmond;
+    border: 3px solid green;
+
+
+    /* padding: 5px; */
+    /* here we are padding with a fixed size from all the side
+
+       and individually we do this :-
+       border-top : 79px;
+       ans so own for all the sides
+    */
+
+    /* but if we want to add padding in one line for all the sides we do this
+    padding: top right bottom left*/
+
+    /* padding: 23px 56px 6px 78px; */
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders */
+
+
+    padding: 34px 19px;  /*padding:y(top/bottom) x(left/right);*/
+
+
+     margin: 14px 19px; /*margin:y(top/bottom) x(left/right);*/
+
+    /* used to create space around elements, outside of any defined borders. With CSS, you have full control over the margins.
+    There are properties for setting the margin for each side of an element (top, right, bottom, and left). */
+    /* margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-left: 30px; */
+
+    border-radius: 23px;
+
+    width: 533px;
+
+    box-sizing: border-box;
+    /* The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not. */
+}
