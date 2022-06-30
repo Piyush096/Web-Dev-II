@@ -1,0 +1,35 @@
+.container{
+    border: 2px solid peru;
+    background-color: rgb(196, 255, 232);
+    padding: 30px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.btn{
+    background-color: cadetblue;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    /* using the text decoration we remove the underline part from the <a>link attribute */
+    color: black;
+}
+a:hover{
+    color:rgb(145, 79, 13);
+    /* :hover selector is used to select elements when you mouse over them.
+        The :hover selector can be used on all elements, not only on links.*/
+}
+
+a:visited{
+    color: rgb(220, 221, 188);
+}
+
+
+
