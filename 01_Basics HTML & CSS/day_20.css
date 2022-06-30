@@ -2,7 +2,11 @@
 
     width: 900px ;
     border: 3px solid olivedrab;
-    margin: auto;
+    background-color: cadetblue;
+
+
+    margin:auto;
+    /* margin-left:auto; */
     /*  margin property to auto to horizontally center the element within its container.The element will then take
     up the specified width, and the remaining space will be split equally between the left and right margins. */
 
@@ -11,14 +15,24 @@
 .items{
 
     border: 3px solid rgb(222, 101, 8);
-    margin: 12px 3px;
+    margin: 10px 3px;
     padding:12px 3px;
     background-color: burlywood;
-    border-radius: 10px;
+    border-radius: 20px;
 }
+
+#one{
+
+    color: blue;
+}
+#fruitspara{
+    color: rgb(135, 150, 222);
+}
+
 
 
 body{
 
     font-family: 'Roboto', sans-serif;
 }
+
