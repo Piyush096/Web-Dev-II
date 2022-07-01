@@ -17,6 +17,10 @@
     /*  margin property to auto to horizontally center the element within its container.The element will then take
     up the specified width, and the remaining space will be split equally between the left and right margins. */
 
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+
 }
 
 .items{
@@ -47,6 +51,9 @@ body{
 
     float:left;
     width:48%;
+    /* display: flex; */
+    align-items: center;
+
 
 }
 
@@ -54,9 +61,12 @@ body{
 
     float:right;
     width: 48%;
-
-
+    /*  */
+    /*  */
+    /* justify-content: center; */
 }
+
+
 
 #stationary{
 
