@@ -57,8 +57,6 @@ body{
 
     float:right;
     width: 48%;
-    /*  */
-    /*  */
     /* justify-content: center; */
 }
 
@@ -78,6 +76,7 @@ body{
 p{
 
     text-align:justify;
+    /* When you justify text, space is added between words so that both edges of each line are aligned with both margins. */
 
 }
 

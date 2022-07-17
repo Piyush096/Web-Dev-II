@@ -1,0 +1,16 @@
+img{
+    width: 64px;
+    margin:auto;
+    display: block;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+header{
+    margin: auto;
+    width: 15%;
+    border: 2px solid red;
+}
