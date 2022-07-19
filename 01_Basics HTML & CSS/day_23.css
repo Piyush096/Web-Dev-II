@@ -3,6 +3,8 @@ img{
     margin:auto;
     display: block;
 }
+/* here image display is inline so we added display block property to make it block
+now if add margin audto the image comes in center*/
 
 h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,3 +16,5 @@ header{
     width: 15%;
     border: 2px solid red;
 }
+/* here after adding margin header not comes to the middle show that we added  its width now the header
+comes in middle  */
