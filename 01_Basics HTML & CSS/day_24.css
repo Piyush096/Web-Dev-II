@@ -1,0 +1,67 @@
+/* css position : static(default) , absolute , relative , fixed , sticky  */
+
+.box{
+    border: 2px solid olivedrab;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+.container{
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    height: 3444px;
+}
+
+#box3{
+    /* position: relative;
+    top: 34px;
+    left: 134px; */
+
+    /* as we see we added relative it changes its position and leaves a space and here we add how it moved fom
+    left right r from top w.r.t the container in which the box is present . */
+}
+
+#box3{
+    /* position: absolute;
+    top: 34px;
+    left: 134px; */
+
+    /* as we see here we added the absolute property and it changes its position without leaving a space
+    (space means that the actual size of the box) and in the same we add the few more properties to it that
+    how much it moves w.r.t that container */
+}
+
+#box3{
+
+     /*if we want to fixed the box  when we scrolls a page but the position of that box is always fix at that position
+    then we use position : fix; and then we give the position at what position we want to fix */
+
+    position: fixed;
+
+    right: 4px;
+    bottom: 2px;
+}
+#box3{
+    /* if we want to fix a box after we scroll a page and other moves but the always remain at that position
+    then we use sticky. */
+
+    /* position: sticky;
+
+    top: 3px;
+    right:2px; */
+}
+
+
+
+
+/* in position property when we add the
+1) position:relative ; which means that it changes the position relative to its normal position and
+   leaves a blank space to its older position . */
+
+/*
+2) position : absolute ; which means that it changes it position relative to its normal position and it
+   not leaves a blank space to its older position. */
+
