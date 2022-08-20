@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     background: url("new.jpg");
-     background-size:cover;
+    background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -10,14 +10,68 @@ body{
 
 .left{
 
+    border: 2px solid olivedrab;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 15px;
+
+}
+.left img{
+    width:130px;
+    border-radius: 20px;
+    filter: invert(10%);
+    /* using this predefine function we can convert the white image to black and vice versa */
+}
+.lefttext{
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
 }
 
 .mid{
 
+    border: 2px solid rgb(142, 74, 35);
+    display: block;
+    margin: 15px auto;
+    width:53%;
 
 }
 
 .right{
 
+    border: 2px solid rgb(35, 46, 142);
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 15px;
+    font-size: 34px;
+    padding: 15px;
+
+}
+
+.nevbar li{
+    display: inline-block;
+    font-size: 34px;
+
+
+}
+
+.nevbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nevbar li a:hover, .nevbarli a.active{
+    text-decoration: underline;
+    color:white;
+
+}
+.btn{
+    margin: 0px 9px;
+    padding: 4px 14px;
     
 }
+
+
