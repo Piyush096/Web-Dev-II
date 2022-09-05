@@ -10,7 +10,7 @@ body{
 
 .left{
 
-    border: 2px solid olivedrab;
+    /* border: 2px solid olivedrab; */
     display: inline-block;
     position: absolute;
     left: 34px;
@@ -31,16 +31,19 @@ body{
 
 .mid{
 
-    border: 2px solid rgb(142, 74, 35);
+   /*  border: 2px solid rgb(142, 74, 35); */
     display: block;
     margin: 15px auto;
+    padding: 4px;
     width:53%;
+    background-color: chocolate;
+    border-radius: 20px;
 
 }
 
 .right{
 
-    border: 2px solid rgb(35, 46, 142);
+    /* border: 2px solid rgb(35, 46, 142); */
     display: inline-block;
     position: absolute;
     right: 34px;
@@ -65,13 +68,34 @@ body{
 
 .nevbar li a:hover, .nevbarli a.active{
     text-decoration: underline;
-    color:white;
+    color:rgb(216, 205, 144);
 
 }
 .btn{
     margin: 0px 9px;
-    padding: 4px 14px;
-    
+    padding: 5px 14px;
+    border-radius: 16px;
+    cursor: pointer;
+    color:rgb(224, 114, 114);
+
 }
+.details{
+    background:url("background_image.jpg");
+    display: inline-block;
+    padding: 3%;
+    position: absolute;
+    top: 234px;
+    left: 534px;
+    border-radius: 14px;
 
+}
+.payment{
+    background:url("background_image.jpg") ;
+    display: inline-block;
+    padding: 3%;
+    position: absolute;
+    top: 234px;
+    left: 934px;
+    border-radius: 14px;
 
+}
